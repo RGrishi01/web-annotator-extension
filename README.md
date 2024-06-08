@@ -34,11 +34,11 @@ The Web Annotator Extension is a browser extension that allows users to annotate
    
    ![Popup UI](screenshots/extension.png)
 2. Use the buttons to select the desired tool (pen, highlighter, note, undo, save).
-   ![Select Tool](screenshots/pop-up.png)
+
+   ![Select Tool](screenshots/popup.png)
 3. For the pen and highlighter tools, select a color from the color selector.
-   
-   ![Color Selector](screenshots/select-colors.png)
 4. Annotate the webpage as needed.
+
    ![Annotate Webpage](screenshots/annotate.png)
 5. Click "Save" to save your annotations. Saved annotations will be restored when you revisit the page.
 
