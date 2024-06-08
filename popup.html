@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Tool Button Container -->
+    <div class="button-container">
+      <button id="pen-button" class="tool-button"><img src="icons/pen.png" alt="Pen" /></button>
+      <button id="highlight-button" class="tool-button">
+        <img src="icons/highlight.png" alt="Highlight" />
+      </button>
+      <button id="note-button" class="tool-button">
+        <img src="icons/note.png" alt="Add Note" />
+      </button>
+      <button id="undo-button" class="tool-button"><img src="icons/undo.png" alt="Undo" /></button>
+      <button id="save-button" class="tool-button"><img src="icons/save.png" alt="Save" /></button>
+    </div>
+
+    <!-- Color Selector Container -->
+    <div id="color-selector">
+      <button class="color-button" data-color="yellow" style="background-color: yellow"></button>
+      <button class="color-button" data-color="cyan" style="background-color: cyan"></button>
+      <button class="color-button" data-color="pink" style="background-color: pink"></button>
+      <button
+        class="color-button"
+        data-color="lightgreen"
+        style="background-color: lightgreen"
+      ></button>
+      <button
+        class="color-button"
+        data-color="rgb(255, 77, 77)"
+        style="background-color: rgb(255, 77, 77)"
+      ></button>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="popup.js"></script>
+  </body>
+</html>
